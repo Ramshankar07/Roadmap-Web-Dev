@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+    document.querySelector("button").addEventListener("click", handleClick);
+
+      function handleClick(){
+          alert("clicky");
+      }
+      
+      var t = document.querySelectorAll(".drum").length;
+      
+      for (var i=0;i<t;i++){
+          document.querySelector("button")[i].addEventListener("click",function (){
+              var audio = new Audio ('Drum Kit Starting Files/sounds/tom-1.mp3');
+              audio.play()
+          })
+      }</script>
+</head>
+<body class="clod">
+  <h2>This is my first webpage.</h2> 
+  <p id="rcorners">Welcome aboard!</p>
+  <div class="grid-container">
+    <p>as</p>
+    <p>po</p>
+</div>
+<p style="margin: 3px 5px 10px 10px;">uliwefkjsdbvgkrughklzdjfglasudhgalsdmgblaijdghasdmgblaisrgbLKRbgj</p>
+
+<button class="buton" style="cursor:progress">Click me!</button>
+<section>
+    <style>
+        .big{
+            width: 200px;
+            height: 159px;
+            background-color: rgb(143, 241, 241);
+            
+        }
+        .small{
+            width: 90px;
+            height: 59px;
+            background-color: rgb(133, 100, 241);
+            transition: 2s;
+            
+        }
+        .big:hover .small{
+            transform: translateX(110px);
+
+        }
+    </style>
+    <div class='big'>
+    <div class='small'></div>
+    </div>
+</section>
+</body>
+</html>

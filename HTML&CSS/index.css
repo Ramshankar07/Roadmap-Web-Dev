@@ -1,0 +1,44 @@
+h2{
+color: darkgoldenrod;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: medium;
+
+}
+body {
+    background-color: powderblue;
+    position: center;
+    padding: 110px 110px 110px 110px;
+  }
+.clod{
+    background-color: beige;
+}
+
+#rcorners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+ }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    background-color: #1d5583;
+    padding: 3px;
+}
+  
+.grid-container > p {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+button{
+    width: 50px;
+    height: 100px;
+    background-color: aqua;
+}
+button:hover{
+    background-color: blue;
+}
